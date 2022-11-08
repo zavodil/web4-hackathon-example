@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web4 Hackathon Template</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1>NEAR Web4 Online Hackathon</h1>
+    <p class="lead">Hackathon Description...</p>
+
+    <h4>Reward Pool: %REWARD_POOL% NEAR</h4>
+
+    <hr />
+
+    <a href="/register">Submit your project</a>
+
+    <h2>Applications</h2>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Project</th>
+                <th>Data</th>
+                <th>Account Id</th>
+                <th>Contacts</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            %APPLICATIONS%
+            </tbody>
+        </table>
+    </div>
+
+    <p class="lead">Applications deadline: <span id="deadline"></span></p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script>
+    %DEADLINE_SCRIPT%
+</script>
+</body>
+</html>
